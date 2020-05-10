@@ -1,4 +1,3 @@
-{-# LANGUAGE LambdaCase #-}
 module Main (main) where
 import System.Directory
 import System.Environment (getArgs)
