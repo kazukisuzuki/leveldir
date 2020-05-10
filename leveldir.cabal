@@ -1,0 +1,73 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 0fbbde630e1bb6f5f9a733a08fc08007457352549e424fdd6111e8e7aa34c086
+
+name:           leveldir
+version:        0.1.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/leveldir#readme>
+homepage:       https://github.com/githubuser/leveldir#readme
+bug-reports:    https://github.com/githubuser/leveldir/issues
+author:         kazuki
+maintainer:     26251926+kazukisuzuki@users.noreply.github.com
+license:        PublicDomain
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/leveldir
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_leveldir
+  hs-source-dirs:
+      src
+  default-extensions: LambdaCase
+  build-depends:
+      base >=4.7 && <5
+    , directory
+    , filepath
+    , uuid
+  default-language: Haskell2010
+
+executable leveldir-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_leveldir
+  hs-source-dirs:
+      app
+  default-extensions: LambdaCase
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , directory
+    , filepath
+    , leveldir
+    , uuid
+  default-language: Haskell2010
+
+test-suite leveldir-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_leveldir
+  hs-source-dirs:
+      test
+  default-extensions: LambdaCase
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , directory
+    , filepath
+    , leveldir
+    , uuid
+  default-language: Haskell2010
