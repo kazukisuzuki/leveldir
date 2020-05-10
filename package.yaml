@@ -1,10 +1,10 @@
 name:        leveldir
 version:     "0.1.0"
-github:      githubuser/leveldir
+github:      kazukisuzuki/leveldir
 license:     PublicDomain
 author:      kazuki
 maintainer:  26251926+kazukisuzuki@users.noreply.github.com
-description: Please see the README on GitHub at <https://github.com/githubuser/leveldir#readme>
+description: Please see the README on GitHub at <https://github.com/kazukisuzuki/leveldir#readme>
 
 extra-source-files:
 - README.md

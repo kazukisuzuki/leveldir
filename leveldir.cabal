@@ -4,13 +4,13 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0fbbde630e1bb6f5f9a733a08fc08007457352549e424fdd6111e8e7aa34c086
+-- hash: 4424d0c221e88fcfeb9d0a6ad49c0a00c5ab37f67e828e270c7a48d748dc534d
 
 name:           leveldir
 version:        0.1.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/leveldir#readme>
-homepage:       https://github.com/githubuser/leveldir#readme
-bug-reports:    https://github.com/githubuser/leveldir/issues
+description:    Please see the README on GitHub at <https://github.com/kazukisuzuki/leveldir#readme>
+homepage:       https://github.com/kazukisuzuki/leveldir#readme
+bug-reports:    https://github.com/kazukisuzuki/leveldir/issues
 author:         kazuki
 maintainer:     26251926+kazukisuzuki@users.noreply.github.com
 license:        PublicDomain
@@ -22,7 +22,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/leveldir
+  location: https://github.com/kazukisuzuki/leveldir
 
 library
   exposed-modules:
